@@ -6,7 +6,7 @@ Simple implementation of FSM to work with MongoDB.
 
 To prevent race conditions, optimistic locking is used. As with any technique, it has pros and cons:
 
-Proc:
+Pros:
 - no need to lock the whole document: reading and writing on some fields occurs without delay
 - simple store interface (don't need of multi-statement transactions)
 

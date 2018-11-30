@@ -15,6 +15,6 @@ Cons:
 
 ## Content
 
-[store/mongo.go](mongo.go) file contains store engine implementation.
+[store/mongo.go](store/mongo.go) file contains store engine implementation.
 
 [main.go](main.go) file contains simple tests for concurrent state updates.
